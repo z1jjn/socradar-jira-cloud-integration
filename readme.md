@@ -1,0 +1,1 @@
+SOCRadar Jira Cloud two-way integration using v4 API.
