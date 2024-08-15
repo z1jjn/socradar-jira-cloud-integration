@@ -83,7 +83,7 @@ async def create_issue():
                                 jira.issue_create(soc_issue)
                             else:
                                 print(err + " at alarm id " + str(alarm_id))
-                    count += 1
+                count += 1
             else:
                 break
         else:
