@@ -61,7 +61,7 @@ async def create_issue():
                     'description': parsed_text
                     + "\n\n"
                     + "Direct Link: "
-                    + f"{socradar_api_url}{socradar_company_id}/alarm-management?tab=approved&alarmId={alarm_id}",
+                    + f"https://platform.socradar.com/app/company/{socradar_company_id}/alarm-management?tab=approved&alarmId={alarm_id}",
                     'issuetype': {'name': 'Incident'},
                     request_type_field_id: request_type,
                     'assignee': {
@@ -96,7 +96,7 @@ async def create_issue():
                                 'description': parsed_text
                                 + "\n\n"
                                 + "Direct Link: "
-                                + f"{socradar_api_url}{socradar_company_id}/alarm-management?tab=approved&alarmId={alarm_id}",
+                                + f"https://platform.socradar.com/app/company/{socradar_company_id}/alarm-management?tab=approved&alarmId={alarm_id}",
                                 'issuetype': {'name': 'Incident'},
                                 request_type_field_id: request_type,
                                 'assignee': {
